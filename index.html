@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation (addEventListener)</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Sign Up Form</h1>
+        </div>
+
+        <form id="form" class="form">
+
+            <div class="form-control">
+                <label for="username">User Name</label><br>
+                <input type="text" id="username" placeholder="Eneter your Name..."><br>
+                <small>Error Message</small>
+            </div><br>
+
+            <div class="form-control">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Eneter your Email Address..."><br>
+                <small>Error Message</small>
+            </div><br>
+
+            <div class="form-control">
+                <label for="password">Password</label><br>
+                <input type="password" id="pwd1" placeholder="Eneter your password..."><br>
+                <small>Error Message</small>
+            </div><br>
+
+            <div class="form-control">
+                <label for="reenter">Re-Enter Password</label><br>
+                <input type="password" id="pwd2" placeholder="Re-Eneter your password..."><br>
+                <small>Error Message</small>
+            </div><br>
+
+            <button>Submit</button>
+
+        </form>
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
